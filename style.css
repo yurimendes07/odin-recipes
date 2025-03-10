@@ -1,0 +1,38 @@
+* {
+    background-color: bisque;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a {
+    font-size: 18px;
+    color: blue;
+}
+
+img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.recipes, .recipes * {
+    list-style-type: none;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    padding-bottom: 5px;
+}
+
+.recipes {
+    padding: 20px;
+}
+
+.home {
+    text-decoration: none;
+    border-color: 10px;
+    color: black;
+}
+
+.copyright {
+    font-size: 15px;
+    font-style: italic;
+    text-align: center;
+}
